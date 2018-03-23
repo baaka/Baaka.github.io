@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Portal</title>
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+  <source src="images/610942294.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<div class="v-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="nav-item">
+                    <div class="circle" onclick="openModule('climate')">
+                        <span class="nav-item-title">კლიმატი</span>
+                        <p>კლიმატის მოდული არის ინფორმაციის ჰაბი, ის შეიცავს მონაცემებსა და რეპორტებს კლიმატის შესახებ.
+                            ამ მოდულში შეგიძლიათ კლიმატის ინფორმაციაზე წვდომა დაამყაროთ ქვერების საშუალების, ასევე
+                            მოახდინოთ სხვადასხვა მანიპულაციები,
+                            იხილოთ ჩარტები და სხვა, კლიმატთან დაკავშირებული ინფორმაცია.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="nav-item">
+                    <div class="circle" onclick="openModule('biodiversity')">
+                        <span class="nav-item-title">ბიომრავალფეროვნება</span>
+                        <!--<p>ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-offset-3 col-md-offset-0 col-xs-12 col-sm-6 col-md-4">
+                <div class="nav-item">
+                    <div class="circle" onclick="openModule('desertification')">
+                        <span class="nav-item-title">გაუდაბნოება</span>
+                        <!--<p>ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-footer ">
+    <div class="blank"></div>
+    <div class="footer-item" onclick="openModule('console')">
+        <img src="images/knowledge-management-logo.png">
+        <span>ცოდნის მართვა</span>
+    </div>
+    <div class="footer-item" onclick="openModule('dc')">
+        <img src="images/database-logo.png">
+        <span>მონაცემების შეგროვება</span>
+    </div>
+    <div class="footer-item" onclick="openModule('gis')">
+        <img src="images/gis-logo.png">
+        <span>GIS</span>
+    </div>
+    <div class="footer-item" onclick="openModule('bi')">
+        <img src="images/bi-server-logo.png">
+        <span>BI სერვერი</span>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var host = location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '');
+    var domain = host + "/dkms/";
+
+    function openModule(module) {
+        if (module === 'climate' || module === 'console' || module === 'biodiversity' || module === 'desertification') {
+            window.location.assign(domain + module);
+        } else if (module === 'dc' || module === 'bi') {
+            window.location.assign(host + '/' + module);
+        } else if (module === 'gis') {
+            window.location.assign(domain + 'climate/#gis');
+        } else {
+            window.alert('არჩეული მოდული ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ.')
+        }
+    }
+</script>
+</body>
+</html>
