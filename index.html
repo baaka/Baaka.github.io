@@ -13,6 +13,7 @@ p {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
+  z-index:2;
 }
 </style>
 <body>
@@ -20,37 +21,56 @@ p {
   <source src="images/610942294.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+
 <div class="v-center">
     <div class="container-fluid">
         <div class="row">
-           <p id="countdown"></p>
+		   <div class="col-xs-12 col-sm-6 col-md-4">
+                
+				<div class="nav-item">
+					
+                    <div class="circle" onclick="openModule('biodiversity')">
+                        <span class="nav-item-title">ჩამოსვლამდე&nbspდარჩენილია</span>
+						<h1 style="color:#333333" id="countdown"></h1>
+                        <!--<p>ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ</p>-->
+						<!--<p id="countdown"></p>-->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+ 
 <div class="nav-footer ">
     <div class="blank"></div>
-    <div class="footer-item" onclick="openModule('console')">
+    <div class="footer-item" onclick="openModule('profile')">
         <img src="images/knowledge-management-logo.png">
-        <span>ცოდნის მართვა</span>
+        <span>კონტაქტი</span>
     </div>
-    <div class="footer-item" onclick="openModule('dc')">
-        <img src="images/database-logo.png">
-        <span>მონაცემების შეგროვება</span>
-    </div>
-    <div class="footer-item" onclick="openModule('gis')">
+    <div class="footer-item" onclick="openModule('airways')">
         <img src="images/gis-logo.png">
-        <span>GIS</span>
-    </div>
-    <div class="footer-item" onclick="openModule('bi')">
-        <img src="images/bi-server-logo.png">
-        <span>BI სერვერი</span>
+        <span>ავიახაზები</span>
     </div>
 </div>
 
 
-    <script>
+<script>
+
+function openModule(module) {
+        if (module === 'climate' || module === 'console' || module === 'biodiversity' || module === 'desertification') {
+            window.location.assign(domain + module);
+        } else if (module === 'profile') {
+            window.open("https://www.facebook.com/Dr.jikia","_self ");
+        } else if (module === 'airways') {
+            window.open("https://en.belavia.by/","_self ");
+        } else {
+            window.alert('არჩეული მოდული ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ.')
+        }
+    }
+
+
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+var countDownDate = new Date("Nov 18, 2018 03:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
