@@ -15,3 +15,11 @@ body {
     --color-text-primary: #fff;
     --color-link: #00bfff;
 }
+
+.section:first-of-type {
+    padding-top: 80px; /* header height */
+}
+
+body.menu-open .section:first-of-type {
+    padding-top: 250px; /* header height + mobile nav height */
+}
