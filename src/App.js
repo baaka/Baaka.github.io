@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+
+            <main id="main" className="section">
+                <h1>Main Section</h1>
+                <p>Welcome to the main section of your website.</p>
+            </main>
+
+            <section id="products" className="section">
+                <h1>Products</h1>
+                <p>Here are our amazing products!</p>
+            </section>
+
+            <section id="contact" className="section">
+                <h1>Contact</h1>
+                <p>Contact us at contact@baaka.com</p>
+            </section>
+        </div>
+    );
 }
 
 export default App;
