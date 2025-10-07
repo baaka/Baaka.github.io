@@ -1,103 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new-looker</title>
 
-    <title>Portal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+    />
 </head>
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-  z-index:2;
-}
-</style>
-<body>
-<video autoplay muted loop id="myVideo">
-  <source src="images/610942294.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-
-<div class="v-center">
-    <div class="container-fluid">
-        <div class="row">
-		   <div class="col-xs-12 col-sm-6 col-md-4">
-                
-				<div class="nav-item">
-					
-                    <div class="circle" onclick="openModule('biodiversity')">
-                        <span class="nav-item-title">ჩამოსვლამდე&nbspდარჩენილია</span>
-						<h1 style="color:#333333" id="countdown"></h1>
-                        <!--<p>ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ</p>-->
-						<!--<p id="countdown"></p>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
- 
-<div class="nav-footer ">
-    <div class="blank"></div>
-    <div class="footer-item" onclick="openModule('profile')">
-        <img src="images/knowledge-management-logo.png">
-        <span>კონტაქტი</span>
-    </div>
-    <div class="footer-item" onclick="openModule('airways')">
-        <img src="images/gis-logo.png">
-        <span>ფრენის სტატუსი</span>
-    </div>
-</div>
-
-
-<script>
-
-function openModule(module) {
-        if (module === 'climate' || module === 'console' || module === 'biodiversity' || module === 'desertification') {
-            window.location.assign(domain + module);
-        } else if (module === 'profile') {
-            window.open("https://www.linkedin.com/in/baaka-tsutskhvashvili/","_self ");
-        } else if (module === 'airways') {
-            window.open("https://wizzair.com/en-gb/information-and-services/flight-status/current-flight-status#/W6-7923-null","_self ");
-        } else {
-            window.alert('არჩეული მოდული ხელმისაწვდომი იქნება მეორე კომპონენტის შემდეგ.')
-        }
-    }
-
-
-// Set the date we're counting down to
-var countDownDate = new Date("Nov 19, 2024 19:45:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
-    
+<body class="bg-white">
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
