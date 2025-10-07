@@ -8,3 +8,10 @@ body {
     min-height: 100vh;
     text-align: center;
 }
+
+:root {
+    --color-bg-header: #041e89;
+    --color-bg-footer: #041e89;
+    --color-text-primary: #fff;
+    --color-link: #00bfff;
+}

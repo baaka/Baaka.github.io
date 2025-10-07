@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './index.css';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
                 <h1>Contact</h1>
                 <p>Contact us at contact@baaka.com</p>
             </section>
+
+            <Footer />
         </div>
     );
 }
