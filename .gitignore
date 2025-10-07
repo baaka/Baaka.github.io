@@ -9,8 +9,6 @@ lerna-debug.log*
 
 # Dependencies
 node_modules
-dist
-dist-ssr
 *.local
 
 # Editor directories and files
@@ -31,7 +29,9 @@ dist-ssr
 .env.test.local
 .env.production.local
 
-# Build output
+# Build output (only ignored locally, gh-pages will handle it)
+dist
+dist-ssr
 build
 out
 
