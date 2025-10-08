@@ -6,22 +6,51 @@
       "id": "scooter1",
       "name": "City Scooter",
       "description": "A reliable scooter for city commuting.",
+      "fullDescription": "The City Scooter is your perfect urban mobility companion, designed specifically for city dwellers who need efficient and eco-friendly transportation. This compact electric scooter features a powerful 250W motor that provides speeds up to 15 mph and can handle inclines up to 15 degrees. The 8.5Ah lithium-ion battery offers a range of up to 25 miles on a single charge, making it ideal for daily commutes. With pneumatic tires for superior comfort and stability, LED lighting for safety, and a foldable design for easy storage and transport, this scooter combines practicality with modern design.",
       "price": "300 USD",
-      "availability": true
+      "availability": true,
+      "specifications": {
+        "motor": "250W electric",
+        "battery": "8.5Ah lithium-ion",
+        "range": "25 miles",
+        "maxSpeed": "15 mph",
+        "weight": "28 lbs",
+        "tires": "Pneumatic 8.5 inch"
+      }
     },
     {
       "id": "scooter2",
       "name": "Urban Scooter",
       "description": "A reliable scooter for city commuting 2.",
+      "fullDescription": "Elevate your urban mobility with the Urban Scooter, engineered for the modern city lifestyle. This premium electric scooter boasts a robust 350W motor capable of reaching speeds up to 18 mph, perfect for navigating busy city streets and moderate hills. The advanced 10Ah battery system provides an impressive range of up to 35 miles per charge, ensuring you can complete your daily routine without range anxiety. Features include regenerative braking for extended battery life, LCD display showing speed and battery status, and dual braking system for maximum safety. The aluminum alloy frame is both lightweight and durable, making it perfect for daily commuting.",
       "price": "350 USD",
-      "availability": true
+      "availability": true,
+      "specifications": {
+        "motor": "350W electric",
+        "battery": "10Ah lithium-ion",
+        "range": "35 miles",
+        "maxSpeed": "18 mph",
+        "weight": "32 lbs",
+        "tires": "Solid rubber 9 inch",
+        "features": "LCD display, regenerative braking"
+      }
     },
     {
       "id": "scooter3",
       "name": "Eco Scooter",
       "description": "A reliable scooter for city commuting 3.",
+      "fullDescription": "The Eco Scooter represents the future of sustainable urban transportation, combining cutting-edge technology with environmental consciousness. Powered by a high-efficiency 500W motor, this scooter achieves speeds up to 20 mph while maintaining exceptional energy efficiency. The large 12Ah battery pack delivers an outstanding range of up to 45 miles, making it suitable for longer commutes and weekend adventures. Advanced features include GPS tracking, mobile app connectivity for remote monitoring, and smart battery management system. The ergonomic design with adjustable handlebars and cushioned deck ensures comfort during extended rides, while the integrated USB charging port keeps your devices powered on the go.",
       "price": "400 USD",
-      "availability": true
+      "availability": true,
+      "specifications": {
+        "motor": "500W electric",
+        "battery": "12Ah lithium-ion",
+        "range": "45 miles",
+        "maxSpeed": "20 mph",
+        "weight": "35 lbs",
+        "tires": "Pneumatic 10 inch",
+        "features": "GPS tracking, mobile app, USB charging"
+      }
     }
   ]
 }

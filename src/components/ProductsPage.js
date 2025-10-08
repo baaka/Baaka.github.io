@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "./ProductCard";
+import ProductDetail from "./ProductDetail";
 import "./ProductsPage.css";
 import loadAllData from "../utils/dataLoader";
-import getImageSrc from "../utils/imageLoader";
+import { getProductImages } from "../utils/imageLoader";
 
 const ProductsPage = ({ searchQuery }) => {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     // Load all data dynamically
@@ -18,7 +21,7 @@ const ProductsPage = ({ searchQuery }) => {
       category.data.map((product) => ({
         ...product,
         type: category.type,
-        imageSrc: getImageSrc(category.type, product.id),
+        images: getProductImages(category.type, product.id),
       }))
     );
 
@@ -48,6 +51,16 @@ const ProductsPage = ({ searchQuery }) => {
 
     return categoryMatch && searchMatch;
   });
+
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedProduct(null);
+  };
 
   return (
     <div className="products-page">
@@ -80,7 +93,8 @@ const ProductsPage = ({ searchQuery }) => {
             <ProductCard
               key={`${product.type}-${product.id}`}
               product={product}
-              imageSrc={product.imageSrc}
+              images={product.images}
+              onClick={() => handleProductClick(product)}
             />
           ))
         ) : (
@@ -98,6 +112,15 @@ const ProductsPage = ({ searchQuery }) => {
           </div>
         )}
       </div>
+
+      {/* Product Detail Modal */}
+      {isModalOpen && selectedProduct && (
+        <ProductDetail
+          product={selectedProduct}
+          images={selectedProduct.images}
+          onClose={handleCloseModal}
+        />
+      )}
     </div>
   );
 };
