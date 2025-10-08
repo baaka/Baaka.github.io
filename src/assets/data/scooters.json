@@ -1,0 +1,27 @@
+{
+  "type": "scooter",
+  "description": "Scooters",
+  "data": [
+    {
+      "id": "scooter1",
+      "name": "City Scooter",
+      "description": "A reliable scooter for city commuting.",
+      "price": "300 USD",
+      "availability": true
+    },
+    {
+      "id": "scooter2",
+      "name": "Urban Scooter",
+      "description": "A reliable scooter for city commuting 2.",
+      "price": "350 USD",
+      "availability": true
+    },
+    {
+      "id": "scooter3",
+      "name": "Eco Scooter",
+      "description": "A reliable scooter for city commuting 3.",
+      "price": "400 USD",
+      "availability": true
+    }
+  ]
+}

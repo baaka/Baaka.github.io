@@ -1,0 +1,27 @@
+{
+  "type": "camera",
+  "description": "Cameras",
+  "data": [
+    {
+      "id": "camera1",
+      "name": "HD Security Camera",
+      "description": "High-definition security camera for home monitoring.",
+      "price": "150 USD",
+      "availability": true
+    },
+    {
+      "id": "camera2",
+      "name": "Wireless Camera",
+      "description": "Wireless security camera with night vision.",
+      "price": "200 USD",
+      "availability": true
+    },
+    {
+      "id": "camera3",
+      "name": "Lorex Camera",
+      "description": "Professional Lorex security camera system.",
+      "price": "250 USD",
+      "availability": true
+    }
+  ]
+}

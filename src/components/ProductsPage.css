@@ -1,0 +1,28 @@
+.products-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.products-page h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.no-results {
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 1.2em;
+}
+
+.no-results p {
+  margin: 0;
+}
