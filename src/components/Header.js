@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import SearchField from "./SearchField";
 import "./Header.css";
-import logo from "../assets/images/logo.svg"; // Import the logo image
+import logo from "../assets/images/main_logo.png"; // Import the main logo image
 
 const Header = ({ onSearch }) => {
   useEffect(() => {
@@ -29,10 +29,7 @@ const Header = ({ onSearch }) => {
     <header className="header">
       {/* Left: Logo */}
       <div className="header-left">
-        <div className="logo">
-          <img src={logo} alt="New Looker Logo" />
-        </div>
-        <h1 className="logo-text">NEW LOOKER</h1>
+        <img src={logo} alt="New Looker Logo" className="header-logo" />
       </div>
 
       {/* Center: Search field */}

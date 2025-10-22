@@ -4,19 +4,22 @@ import "./ProductCard.css";
 const ProductCard = ({ product, images, onClick }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const nextImage = () => {
+  const nextImage = (e) => {
+    e.stopPropagation();
     setCurrentImageIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
-  const prevImage = () => {
+  const prevImage = (e) => {
+    e.stopPropagation();
     setCurrentImageIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
-  const goToImage = (index) => {
+  const goToImage = (index, e) => {
+    e.stopPropagation();
     setCurrentImageIndex(index);
   };
 
@@ -48,7 +51,7 @@ const ProductCard = ({ product, images, onClick }) => {
                       className={`indicator ${
                         index === currentImageIndex ? "active" : ""
                       }`}
-                      onClick={() => goToImage(index)}
+                      onClick={(e) => goToImage(index, e)}
                     />
                   ))}
                 </div>
@@ -66,7 +69,7 @@ const ProductCard = ({ product, images, onClick }) => {
             product.availability ? "available" : "unavailable"
           }`}
         >
-          {product.availability ? "Available" : "Out of Stock"}
+          {product.availability ? "ხელმისაწვდომი" : "არ არის ხელმისაწვდომი"}
         </p>
       </div>
     </div>

@@ -1,47 +1,90 @@
 .search-form {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .search-input {
-    width: 300px;              /* width of input */
-    padding: 12px 16px;        /* height of input */
-    border: 1px solid #ccc;
-    border-radius: 6px 0 0 6px;
-    font-size: 16px;
-    height: 48px;              /* explicit height to match button */
-    box-sizing: border-box;    /* ensures padding is included in height */
+  flex: 1; /* expand to fill available space */
+  min-width: 500px; /* wide like Neotech */
+  padding: 14px 20px; /* padding */
+  border: 2px solid #fff;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  font-size: 15px;
+  height: 50px; /* good proportion for 100px header */
+  box-sizing: border-box;
+  background: white;
 }
 
 .search-button {
-    height: 48px;              /* match input height */
-    padding: 0 16px;           /* horizontal padding */
-    border: 1px solid #ccc;
-    border-left: none;
-    border-radius: 0 6px 6px 0;
-    background-color: var(--color-link, #00bfff);
-    color: white;
-    font-size: 18px;           /* adjust for proper icon size */
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 50px; /* match input height */
+  padding: 0 20px; /* horizontal padding */
+  border: 2px solid #fff;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+  background-color: var(--color-link, #00bfff);
+  color: white;
+  font-size: 20px; /* icon size */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; /* prevent button from shrinking */
 }
 
 .search-button:hover {
-    background-color: #0095e0;
+  background-color: #0095e0;
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-    .search-input {
-        width: 80%;
-        height: 40px;             /* slightly smaller on mobile */
-        font-size: 14px;
-    }
+@media (max-width: 1024px) {
+  .search-input {
+    min-width: 350px;
+    height: 45px;
+    font-size: 14px;
+    padding: 12px 16px;
+  }
 
-    .search-button {
-        height: 40px;
-        font-size: 16px;
-    }
+  .search-button {
+    height: 45px;
+    padding: 0 18px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-form {
+    max-width: 100%;
+  }
+
+  .search-input {
+    min-width: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .search-button {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    height: 36px;
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .search-button {
+    height: 36px;
+    padding: 0 12px;
+    font-size: 14px;
+  }
 }

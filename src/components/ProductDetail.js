@@ -82,22 +82,22 @@ const ProductDetail = ({ product, images, onClose }) => {
                 product.availability ? "available" : "unavailable"
               }`}
             >
-              {product.availability ? "✓ Available" : "✗ Out of Stock"}
+              {product.availability ? "✓ მარაგშია" : "✗ არ არის მარაგში"}
             </div>
 
             <div className="product-description">
-              <h3>Overview</h3>
+              <h3>ინფორმაცია</h3>
               <p>{product.description}</p>
             </div>
 
             <div className="product-full-description">
-              <h3>Detailed Description</h3>
+              <h3>დეტალური აღწერა</h3>
               <p>{product.fullDescription}</p>
             </div>
 
             {product.specifications && (
               <div className="product-specifications">
-                <h3>Specifications</h3>
+                <h3>სპეციფიკაციები</h3>
                 <div className="specs-grid">
                   {Object.entries(product.specifications).map(
                     ([key, value]) => (
