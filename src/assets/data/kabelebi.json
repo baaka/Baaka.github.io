@@ -1,0 +1,230 @@
+{
+  "type": "kabelebi",
+  "description": "კაბელები",
+  "data": [
+    {
+      "id": "cable-rs-232-to-usb-18m-6000--04-1",
+      "name": "Cable, RS-232 to USB, 1.8m 6000--04",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "შეესაბამება USB 1.1 სტანდარტს.მხარს უჭერს USB მონაცემთა გადაცემის მაღალსიჩქარიან პროტოკოლს.ანტიელექტრომაგნიტური ჩარევის დიზაინი.USB ავტობუსი.COM პორტები შეიძლება ხელით დაყენდეს გამოსაყენებლად.",
+      "price": "3800",
+      "availability": false,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "erka-kamera-cctv12-1xcoax2x050-pe-outdoor-500mtr-2",
+      "name": "ERKA-KAMERA-CCTV1+2 (1xCoax+2x0.50)-(PE) outdoor 500Mtr",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "ERKA-KAMERA-CCTV1+2 (1xCoax+2x0.50)-(PE)",
+      "price": "154",
+      "availability": false,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "erka-kamera-cctv12-1xcoax2x050-pvc-300mtr-3",
+      "name": "ERKA-KAMERA-CCTV1+2 (1xCoax+2x0.50)-(PVC) 300Mtr",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "ERKA-KAMERA-CCTV1+2 (1xCoax+2x0.50)-(PVC)",
+      "price": "148",
+      "availability": false,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "erka-lan-cat5e-futp-pe-outdor-305m-4",
+      "name": "ERKA-LAN-CAT5e-F/UTP-(PE) Outdor (305m)",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "ERKA-LAN-CAT5e-F/UTP-(PE) Outdor",
+      "price": "168",
+      "availability": false,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "erka-lan-cat5e-futp-pvc-305m-5",
+      "name": "ERKA-LAN-CAT5e-F/UTP-(PVC) (305m)",
+      "description": "თბილისის საწყობი - მარაგშია(*) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "ERKA-LAN-CAT5e-F/UTP-(PVC)",
+      "price": "160",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "tfl-2---eol-control-relay-6",
+      "name": "TFL-2 - კაბელის დამაბოლოებელი EOL Control Relay",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "TFL-2",
+      "price": "41800",
+      "availability": false,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-futp-cat-5e-ds-1ln5eopspe-o-std-black-7",
+      "name": "გარე გამოყენების ქსელის კაბელი F/UTP CAT 5e DS-1LN5EOPSPE (O-STD) black",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "This data cable range is designed for analogue and digital signal transmission in audio, video and data applications in data communication systems supporting 100 MHz, 1.0 Gbit/s 1 Gigabit Ethernet. Cables meet the requirements of structural cabling standards including ANSI EIA/TIA 568, ISO/IEC 11801 and EN 50173 Class D.",
+      "price": "184",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი",
+        "მწარმოებელი": "მწარმოებელი"
+      }
+    },
+    {
+      "id": "-2x25-h05vv-f-outdoor-8",
+      "name": "დენის კაბელი 2x2.5 H05VV-F (outdoor)",
+      "description": "თბილისის საწყობი - მარაგშია(*) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "სპილენძის კაბელი H05VV-F 2*2,5 ბირთვების რაოდენობა 2 ტიპი: H05VV-F დომინალური გამტარის კვეთის ფართობი არის 2.5 მმ სამმაგი PVC საიზოლაციო მრგვალი მრავალმხრივი",
+      "price": "320",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-ds-1h18se-c-9",
+      "name": "ვიდეო ბალუნი DS-1H18S/E (C)",
+      "description": "თბილისის საწყობი - მარაგშია(*) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "თვისებებიგადაცემის სიგნალი1 არხიგადაცემის მანძილიარა-POC კამერა: მაქსიმუმ 250 მ POC კამერა: მაქსიმუმ 150 მ კატეგორიის ტიპიUTP CAT 5E/ 6 (R<10O/100M)ვიდეო გადაცემის თვისებები და პორტიკოაქსიალური ვიდეო კონექტორიBNC-MTwisted-Pair ვიდეო კონექტორიPat Push ინტერფეისითავსებადი ფორმატიHDCVI/TVI/AHD/CVBSრეზოლუცია720P/1080P/4MP/5MP/8MPჭიანჭველების ჩარევა> 60 დბდაცვაESDკონტაქტის გამონადენი ელექტროენერგიის დონე3 ჰაერის გამონადენი ელექტროენერგიის დონე3 თითო: IEC61000-4-2 კოაქსიალური კაბელის კონექტორი2KV (საერთო კოდი) პერ:IEC61000-4-5UTP კაბელის კონექტორი2KV (სხვადასხვა კოდი), 2KV (საერთო კოდი) პერ:IEC61000-4-5 წინაღობაBNC მამრობითი75 ohmsUTP კაბელი100 ohmsფიზიკური თვისებებიჭურვიABSფერიშავიზომები ( L X W X H )150 მმ x 20 მმ x 22 მმ (ბალონი კაბელით) 50 მმ x 20 მმ x 22 მმ (ბალონი კაბელის გარეშე) წონა32 გსტაბილურობაMTBF>10000 სთგარემოსდაცვითიოპერაციული ტემპერატურა-10-55ºCშენახვის ტემპერატურა-20-70ºCტენიანობა0-95% (არაკონდენსირებადი) მეტი",
+      "price": "2000",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი",
+        "მწარმოებელი": "მწარმოებელი"
+      }
+    },
+    {
+      "id": "-cctv-cable-12-mini-coax-2-x-050-300m-40957-10",
+      "name": "კაბელი CCTV CABLE 1+2 Mini Coax (2 x 0,50) (300m) (40957)",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "> დახურული სქემის კამერის სისტემებში; ეს არის კომპოზიტური კაბელები, რომლებიც იძლევა გამოსახულების, აუდიოს, განგაშის და დენის სიგნალების გადაცემას.> CCTV კაბელები არის კომპოზიტური კაბელები, რომლებიც უზრუნველყოფენ გამოსახულების, ხმის, განგაშის და დენის სიგნალების ერთდროულ გადაცემას დახურული მიკროსქემის კამერის სისტემების გამოყენებისას.",
+      "price": "164",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-cctv-cable-12-mini-coax-2-x-050-100m-40957-11",
+      "name": "კაბელი CCTV CABLE 1+2 Mini Coax (2 x 0,50) (100m) (40957)",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "CCTV CABLE 1+2 Mini Coax (2 x 0,50)",
+      "price": "164",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-cctv-cable-12-mini-coax-2x022100m-40950-12",
+      "name": "კაბელი CCTV CABLE 1+2 MINI COAX (2x0,22)(100m) (40950)",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "ელექტრო პარამეტრები საიზოლაციო წინააღმდეგობა >2000 მ Ω კმ სამუშაო ძაბვა 0,14 მმ² ... 0,25 მმ² = 250 ვ~ 0,34 მმ² .... 1,5 მმ² = 500 ვ~ ტესტის ძაბვა 0,14 მმ² ... 0,25 მმ² = 1200 ვ~ 0,34 მმ² .... 1,5 მმ² = 2,500 ვ~ მოსახვევის რადიუსი (მინ.) 15 x დ სამუშაო ტემპერატურა -30 ºC +70 ºC წინაღობა 75 ± 3 Ω სიმძლავრე 54 ± 2 pF/mt გამტარის წინააღმდეგობა 0,22 მმ²: 96 Ω/კმ0,34 მმ²: 56 Ω/კმ0,56 მმ²: 39 Ω/კმ0,75 მმ²: 26 Ω/კმ მეტი",
+      "price": "119",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-cctv-cable-12-mini-coax-2x022300m-40950-13",
+      "name": "კაბელი CCTV CABLE 1+2 MINI COAX (2x0,22)(300M) (40950)",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "CCTV CABLE 1+2 MINI COAX (2x0,22)",
+      "price": "119",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-hdmi-tt-hdmi-20-10m-20-versioncopper-191-14",
+      "name": "კაბელი HDMI TT-HDMI 2.0-10M 2.0 Version,Copper, 19+1",
+      "description": "თბილისის საწყობი - მარაგშია(**) ბათუმის საწყობი - მარაგშია(*)",
+      "fullDescription": "კაბელი HDMI TT-HDMI 2.0-10M 2.0 Version,Copper, 19+1",
+      "price": "7800",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-hdmi-tt-hdmi-20-5m-20-versioncopper-191-15",
+      "name": "კაბელი HDMI TT-HDMI 2.0-5M 2.0 Version,Copper, 19+1",
+      "description": "თბილისის საწყობი - მარაგშია(**) ბათუმის საწყობი - მარაგშია(*)",
+      "fullDescription": "კაბელი HDMI TT-HDMI 2.0-5M 2.0 Version,Copper, 19+1",
+      "price": "4300",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-cctv-12-mini-coax-2-x-050-pe-100m-40975-16",
+      "name": "კაბელი გარე მონტაჟის CCTV 1+2 (Mini Coax + 2 x 0,50) PE (100m) (40975)",
+      "description": "თბილისის საწყობი - მარაგშია(***) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "CCTV 1+2 (Mini Coax + 2 x 0,50) PE (100m) (40975)",
+      "price": "155",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-cctv-12-minicoax-2x050---pe300m-40975-17",
+      "name": "კაბელი გარე მონტაჟის CCTV 1+2 (MiniCoax + 2x0,50) - PE(300m) (40975)",
+      "description": "თბილისის საწყობი - მარაგშია(****) ბათუმის საწყობი - მარაგშია(****)",
+      "fullDescription": "> დახურული სქემის კამერის სისტემებში; ეს არის კომპოზიტური კაბელები, რომლებიც იძლევა გამოსახულების, აუდიოს, განგაშის და დენის სიგნალების გადაცემას.> CCTV კაბელები არის კომპოზიტური კაბელები, რომლებიც უზრუნველყოფენ გამოსახულების, ხმის, განგაშის და დენის სიგნალების ერთდროულ გადაცემას დახურული წრიული კამერის სისტემების გამოყენებისას",
+      "price": "155",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    },
+    {
+      "id": "-hikvision-ae-mc0201-4--18",
+      "name": "კაბელი კონექტორით hikvision AE-MC0201-4, საავტომობილო სისტემებისთვის",
+      "description": "თბილისის საწყობი - მარაგშია(**) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "მობილური ჩამწერის გაფართოების კაბელი; 4 მ; 4 პინიანი საავიაციო რაუნდი",
+      "price": "5900",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი",
+        "მწარმოებელი": "მწარმოებელი"
+      }
+    },
+    {
+      "id": "-hikvision-ae-mc0201-8--19",
+      "name": "კაბელი კონექტორით hikvision AE-MC0201-8, საავტომობილო სისტემებისთვის",
+      "description": "თბილისის საწყობი - არ არის გაყიდვაში ბათუმის საწყობი - მარაგშია(*)",
+      "fullDescription": "მობილური ჩამწერის გაფართოების კაბელი; 8 მ; 4 პინიანი საავიაციო რაუნდი",
+      "price": "9600",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი",
+        "მწარმოებელი": "მწარმოებელი"
+      }
+    },
+    {
+      "id": "--856-20",
+      "name": "ორგანიზატორი კაბელის К-856",
+      "description": "თბილისის საწყობი - მარაგშია(**) ბათუმის საწყობი - არ არის გაყიდვაში",
+      "fullDescription": "სიმაღლე, U 1მუხლი TCB-0003510სიღრმე, მმ 58საფარი ფხვნილი-პოლიმერიფერი ღია ნაცრისფერი (RAL 7035)მწარმოებელი IPCOM",
+      "price": "500",
+      "availability": true,
+      "specifications": {
+        "ბრენდი": "ბრენდი"
+      }
+    }
+  ]
+}

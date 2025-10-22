@@ -1,16 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.f20e27b4.css",
-    "main.js": "/static/js/main.675cf148.js",
+    "main.js": "/static/js/main.9ef79345.js",
     "static/media/2logo.png": "/static/media/2logo.e7552edd70d55b628cc5.png",
-    "static/media/Lorex-Camera.png": "/static/media/Lorex-Camera.e3e83cc00aa0b4c04091.png",
+    "static/media/image2.png": "/static/media/image2.0609cc057fb5931f21a6.png",
+    "static/media/image3.png": "/static/media/image3.0b2672f10ba1dea2fbf5.png",
+    "static/media/image2.jpg": "/static/media/image2.1302f77bdace5ad4ba40.jpg",
+    "static/media/image2.jpeg": "/static/media/image2.71b462e71b0b417976b4.jpeg",
+    "static/media/image3.jpg": "/static/media/image3.684e55bd1236ebd88fc4.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.f20e27b4.css.map": "/static/css/main.f20e27b4.css.map",
-    "main.675cf148.js.map": "/static/js/main.675cf148.js.map"
+    "main.9ef79345.js.map": "/static/js/main.9ef79345.js.map"
   },
   "entrypoints": [
     "static/css/main.f20e27b4.css",
-    "static/js/main.675cf148.js"
+    "static/js/main.9ef79345.js"
   ]
 }
